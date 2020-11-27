@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    HTML Page for step 3. HEADACHE.
+
+    <script>
+        const importObject = {
+            env: {
+                __momory_base: 0,
+            }
+        };
+
+        WebAssembly.instantiateStreaming(fetch("side_module.wasm"), importObject).then(result => {
+            const value = result.instance.exports.Increment(17);
+            console.log(value.toString());
+        })
+    </script>
+</body>
+</html>
