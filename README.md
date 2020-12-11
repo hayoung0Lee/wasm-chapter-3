@@ -1,3 +1,6 @@
+## Webassembly in Action Chapter 3
+ - 출처 WebAssembly in Action 한빛 미디어, 제러드 갤런트 지음/ 이일웅 옮김
+
 ## vscode에서 c, c++ 설정법
 https://csdiary.tistory.com/2
 후, 진짜 귀찮았다. 
